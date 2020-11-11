@@ -1,0 +1,47 @@
+﻿  Generating shaders/frag_shader.frag.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/frag_shader.frag.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/frag_shader.frag
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/frag_shader.frag
+  Generating shaders/passthrough.vert.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/passthrough.vert.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/passthrough.vert
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/passthrough.vert
+  Generating shaders/post.frag.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/post.frag.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/post.frag
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/post.frag
+  Generating shaders/raytrace.rahit.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rahit.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace.rahit
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace.rahit
+  Generating shaders/raytrace.rchit.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rchit.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace.rchit
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace.rchit
+  Generating shaders/raytrace.rgen.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rgen.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace.rgen
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace.rgen
+  Generating shaders/raytrace.rmiss.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rmiss.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace.rmiss
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace.rmiss
+  Generating shaders/raytraceShadow.rmiss.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytraceShadow.rmiss.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytraceShadow.rmiss
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytraceShadow.rmiss
+  Generating shaders/raytrace_0.rahit.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace_0.rahit.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace_0.rahit
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace_0.rahit
+  Generating shaders/raytrace_1.rahit.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace_1.rahit.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace_1.rahit
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/raytrace_1.rahit
+  Generating shaders/vert_shader.vert.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/vert_shader.vert.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/vert_shader.vert
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/shaders/vert_shader.vert
+  Building Custom Rule C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_anyhit/CMakeLists.txt
+  hello_vulkan.cpp
+  main.cpp
+  obj_loader.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_helper.cpp
+  imgui_impl_glfw.cpp
+  imgui_widgets.cpp
+  imgui_orient.cpp
+  imgui_impl_gl.cpp
+  imgui_impl_vk.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  vk_ray_tracing_anyhit_KHR.vcxproj -> C:\Users\ALHARBRQ\Documents\bin_x64\Debug\vk_ray_tracing_anyhit_KHR.exe

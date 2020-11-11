@@ -1,0 +1,61 @@
+﻿  Generating shaders/frag_shader.frag.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/frag_shader.frag.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/frag_shader.frag
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/frag_shader.frag
+  Generating shaders/light_inf.rcall.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/light_inf.rcall.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/light_inf.rcall
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/light_inf.rcall
+  Generating shaders/light_point.rcall.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/light_point.rcall.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/light_point.rcall
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/light_point.rcall
+  Generating shaders/light_spot.rcall.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/light_spot.rcall.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/light_spot.rcall
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/light_spot.rcall
+  Generating shaders/passthrough.vert.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/passthrough.vert.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/passthrough.vert
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/passthrough.vert
+  Generating shaders/post.frag.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/post.frag.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/post.frag
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/post.frag
+  Generating shaders/raytrace.rahit.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rahit.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rahit
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rahit
+  Generating shaders/raytrace.rchit.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rchit.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rchit
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rchit
+  Generating shaders/raytrace.rgen.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rgen.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rgen
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rgen
+  Generating shaders/raytrace.rint.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rint.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rint
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rint
+  Generating shaders/raytrace.rmiss.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.rmiss.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rmiss
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace.rmiss
+  Generating shaders/raytrace2.rahit.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace2.rahit.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace2.rahit
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace2.rahit
+  Generating shaders/raytrace2.rchit.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace2.rchit.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace2.rchit
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytrace2.rchit
+  Generating shaders/raytraceShadow.rmiss.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytraceShadow.rmiss.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytraceShadow.rmiss
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/raytraceShadow.rmiss
+  Generating shaders/vert_shader.vert.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/vert_shader.vert.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/vert_shader.vert
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/shaders/vert_shader.vert
+  Building Custom Rule C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing__advance/CMakeLists.txt
+  hello_vulkan.cpp
+  main.cpp
+  offscreen.cpp
+  raytrace.cpp
+  obj_loader.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_helper.cpp
+  imgui_impl_glfw.cpp
+  imgui_widgets.cpp
+  imgui_orient.cpp
+  imgui_impl_gl.cpp
+  imgui_impl_vk.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  vk_ray_tracing__advance_KHR.vcxproj -> C:\Users\ALHARBRQ\Documents\bin_x64\Debug\vk_ray_tracing__advance_KHR.exe

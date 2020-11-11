@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{55918423-1860-3800-850B-6BC573289856}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_sources;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_external;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.148.1\Include;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_sources\imgui;C:\Users\ALHARBRQ\Documents\shared_external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_sources;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_external;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.148.1\Include;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_sources\imgui;C:\Users\ALHARBRQ\Documents\shared_external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_sources;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_external;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.148.1\Include;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_sources\imgui;C:\Users\ALHARBRQ\Documents\shared_external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_sources;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_external;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.148.1\Include;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\..\shared_sources\imgui;C:\Users\ALHARBRQ\Documents\shared_external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR -BC:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR --check-stamp-file C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\ALHARBRQ\Documents\shared_sources\CMakeLists_include.txt;C:\Users\ALHARBRQ\Documents\shared_sources\cmake\FindVulkanSDK.cmake;C:\Users\ALHARBRQ\Documents\shared_sources\cmake\FindZLIB.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR -BC:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR --check-stamp-file C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\ALHARBRQ\Documents\shared_sources\CMakeLists_include.txt;C:\Users\ALHARBRQ\Documents\shared_sources\cmake\FindVulkanSDK.cmake;C:\Users\ALHARBRQ\Documents\shared_sources\cmake\FindZLIB.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR -BC:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR --check-stamp-file C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\ALHARBRQ\Documents\shared_sources\CMakeLists_include.txt;C:\Users\ALHARBRQ\Documents\shared_sources\cmake\FindVulkanSDK.cmake;C:\Users\ALHARBRQ\Documents\shared_sources\cmake\FindZLIB.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR -BC:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR --check-stamp-file C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\ALHARBRQ\Documents\shared_sources\CMakeLists_include.txt;C:\Users\ALHARBRQ\Documents\shared_sources\cmake\FindVulkanSDK.cmake;C:\Users\ALHARBRQ\Documents\shared_sources\cmake\FindZLIB.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ZERO_CHECK.vcxproj">
+      <Project>{C801088D-7E47-3836-AC1C-E06642F91AA0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\shared_sources\shared_sources.vcxproj">
+      <Project>{DD59B8DB-8A29-3838-922C-4B4EE11134F4}</Project>
+      <Name>shared_sources</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing\vk_ray_tracing.vcxproj">
+      <Project>{3B7EB71D-DCF7-320C-A41A-57D70FB843B8}</Project>
+      <Name>vk_ray_tracing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__advance\vk_ray_tracing__advance_KHR.vcxproj">
+      <Project>{3414152F-C3B9-39C7-9FDF-0DC92A86F006}</Project>
+      <Name>vk_ray_tracing__advance_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__before\vk_ray_tracing__before_KHR.vcxproj">
+      <Project>{11978714-EE46-39F4-AD4A-9FBB55990644}</Project>
+      <Name>vk_ray_tracing__before_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\vk_ray_tracing__simple_KHR.vcxproj">
+      <Project>{E7A2D3FD-E269-3C5A-AB72-255E046F4369}</Project>
+      <Name>vk_ray_tracing__simple_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_animation\vk_ray_tracing_animation_KHR.vcxproj">
+      <Project>{DB8C06C8-3DC2-33BA-8C20-53D91BA81A43}</Project>
+      <Name>vk_ray_tracing_animation_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_anyhit\vk_ray_tracing_anyhit_KHR.vcxproj">
+      <Project>{D01E3075-9E54-3F8E-BFE7-9885F65E6454}</Project>
+      <Name>vk_ray_tracing_anyhit_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_callable\vk_ray_tracing_callable_KHR.vcxproj">
+      <Project>{183A3005-5696-3D83-BB99-28A4504F889C}</Project>
+      <Name>vk_ray_tracing_callable_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_gltf\vk_ray_tracing_gltf_KHR.vcxproj">
+      <Project>{8D4F7DDD-98F3-3634-82C8-B85B9295731E}</Project>
+      <Name>vk_ray_tracing_gltf_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_instances\vk_ray_tracing_instances_KHR.vcxproj">
+      <Project>{1DC972EE-CD71-3AD6-96C0-BA90C95F0C33}</Project>
+      <Name>vk_ray_tracing_instances_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_intersection\vk_ray_tracing_intersection_KHR.vcxproj">
+      <Project>{9EE741A3-8372-381F-9FE7-4688730F29BD}</Project>
+      <Name>vk_ray_tracing_intersection_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_jitter_cam\vk_ray_tracing_jitter_cam_KHR.vcxproj">
+      <Project>{BF2D8115-B7B5-3B0B-A4E2-6547485CC9D7}</Project>
+      <Name>vk_ray_tracing_jitter_cam_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_manyhits\vk_ray_tracing_manyhits_KHR.vcxproj">
+      <Project>{BDB49EC7-F248-311E-8ABA-CF781007B8BF}</Project>
+      <Name>vk_ray_tracing_manyhits_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_rayquery\vk_ray_tracing_rayquery_KHR.vcxproj">
+      <Project>{10435218-F1DF-3A12-AAC1-61C836E228E9}</Project>
+      <Name>vk_ray_tracing_rayquery_KHR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing_reflections\vk_ray_tracing_reflections_KHR.vcxproj">
+      <Project>{552A3D32-AB6C-3F41-9941-C6E58EBE0F4D}</Project>
+      <Name>vk_ray_tracing_reflections_KHR</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

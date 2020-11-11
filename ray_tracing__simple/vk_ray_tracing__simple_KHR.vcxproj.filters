@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\hello_vulkan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\common\obj_loader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_draw.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_helper.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_glfw.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_widgets.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_orient.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_gl.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_vk.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\hello_vulkan.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\resources.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\common\obj_loader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VulkanSDK\1.2.148.1\Include\vulkan\vulkan.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imconfig.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_internal.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_glfw.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_orient.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_gl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_vk.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\frag_shader.frag">
+      <Filter>Shader_Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\passthrough.vert">
+      <Filter>Shader_Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\post.frag">
+      <Filter>Shader_Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\raytrace.rchit">
+      <Filter>Shader_Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\raytrace.rgen">
+      <Filter>Shader_Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\raytrace.rmiss">
+      <Filter>Shader_Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\raytraceShadow.rmiss">
+      <Filter>Shader_Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\vert_shader.vert">
+      <Filter>Shader_Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\raycommon.glsl">
+      <Filter>Shader_Files</Filter>
+    </None>
+    <None Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\ray_tracing__simple\shaders\wavefront.glsl">
+      <Filter>Shader_Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\resources.rc">
+      <Filter>common</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader_Files">
+      <UniqueIdentifier>{3CDF69A8-5FC7-37A1-98E8-D85C690FE0F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0F99A0C-5690-3978-9D5F-754D52742E78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{CCD94BAE-A7CF-3139-BE81-45C7CB1FD139}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

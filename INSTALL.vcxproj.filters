@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\CMakeFiles\976040924510f02bbf04022f7effd206\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D55D1BFE-6827-31E4-8A7E-C1175E6B0A5E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

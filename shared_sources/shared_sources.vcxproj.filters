@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\shared_sources\CMakeFiles\shared_sources.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\appwindowprofiler.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\bitarray.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\cameramanipulator.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\filemapping.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\gltfscene.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\nvprint.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\parametertools.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\profiler.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\shaderfilemanager.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\noise\noise1234.cpp">
+      <Filter>noise</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\cadscenefile.cpp">
+      <Filter>fileformats</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\cgltf.cpp">
+      <Filter>fileformats</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\nv_dds.cpp">
+      <Filter>fileformats</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvpwindow.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvpsystem.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvpsystem_win32.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\allocator_dma_vkgl.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\appwindowprofiler_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\commands_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\context_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\debug_util_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\descriptorsets_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\error_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\extensions_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\gizmos_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\images_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\memorymanagement_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\memorymanagement_vkgl.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\pipeline_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\profiler_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\renderpasses_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\samplers_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\shadermodulemanager_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\swapchain_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\appwindowprofiler_gl.cpp">
+      <Filter>nvgl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\contextwindow_gl.cpp">
+      <Filter>nvgl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\error_gl.cpp">
+      <Filter>nvgl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\extensions_gl.cpp">
+      <Filter>nvgl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\profiler_gl.cpp">
+      <Filter>nvgl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\programmanager_gl.cpp">
+      <Filter>nvgl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_helper.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_orient.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_gl.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_vk.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\appwindowcamerainertia.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\appwindowprofiler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\bitarray.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\cameracontrol.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\camerainertia.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\cameramanipulator.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\filemapping.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\fileoperations.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\geometry.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\gltfscene.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\inputparser.h">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\misc.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\nsightevents.h">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\nvprint.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\parametertools.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\profiler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\radixsort.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\shaderfilemanager.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\timesampler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvh\trangeallocator.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvmath\nvmath.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvmath\nvmath.inl">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvmath\nvmath_glsltypes.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvmath\nvmath_hlsltypes.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvmath\nvmath_types.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\noise\mersennetwister1.h">
+      <Filter>noise</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\noise\noise1234.h">
+      <Filter>noise</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\bmp.hpp">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\cadscenefile.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\cgltf.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\json.hpp">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\nv_dds.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\stb_image.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\stb_image_write.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\tiny_gltf.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\tiny_gltf_freeimage.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\fileformats\tiny_obj_loader.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvpwindow.hpp">
+      <Filter>nvp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvpsystem.hpp">
+      <Filter>nvp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\allocator_dedicated_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\allocator_dma_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\allocator_dma_vkgl.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\allocator_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\allocator_vma_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\appbase_vkpp.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\appwindowprofiler_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\buffers_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\commands_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\context_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\debug_util_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\descriptorsets_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\error_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\extensions_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\gizmos_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\images_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\memorymanagement_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\memorymanagement_vkgl.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\pipeline_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\profiler_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\raytraceKHR_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\raytraceNV_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\renderpasses_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\samplers_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\shadermodulemanager_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\shaders_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\structs_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvvk\swapchain_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\appwindowprofiler_gl.hpp">
+      <Filter>nvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\base_gl.hpp">
+      <Filter>nvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\contextwindow_gl.hpp">
+      <Filter>nvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\error_gl.hpp">
+      <Filter>nvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\extensions_gl.hpp">
+      <Filter>nvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\glsltypes_gl.hpp">
+      <Filter>nvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\profiler_gl.hpp">
+      <Filter>nvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\nvgl\programmanager_gl.hpp">
+      <Filter>nvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VulkanSDK\1.2.148.1\Include\vulkan\vulkan.h">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_glfw.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_helper.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_orient.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_gl.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\shared_sources\imgui\imgui_impl_vk.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\shared_sources\CMakeFiles\shared_sources.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\shared_sources\CMakeFiles\shared_sources.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\shared_sources\CMakeFiles\shared_sources.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ALHARBRQ\Documents\vk_raytracing_tutorial_KHR\shared_sources\CMakeFiles\shared_sources.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ALHARBRQ\Documents\shared_sources\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F1E833DB-9743-3295-8A7A-525B6F9FC4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0F99A0C-5690-3978-9D5F-754D52742E78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vulkan">
+      <UniqueIdentifier>{38F11B91-100E-3D61-AB73-6891FF0420C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileformats">
+      <UniqueIdentifier>{CCB68A3F-135B-335B-89B5-F55C83AF9E0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{BDAB12F3-F056-3835-AA01-9B3DDBE69CB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="noise">
+      <UniqueIdentifier>{88528AB7-935A-3B4D-AC27-FCB11DE04FC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvgl">
+      <UniqueIdentifier>{2A8E0B5A-0FD2-3AD9-A618-4818ECD207D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvh">
+      <UniqueIdentifier>{F619D233-D3CB-388A-A526-033CAABF68AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvmath">
+      <UniqueIdentifier>{A5C3C132-AE8F-3A5F-9F3C-E168AB1D91B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvp">
+      <UniqueIdentifier>{437E70F8-215F-32B3-A1CD-E335E360E100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvvk">
+      <UniqueIdentifier>{5250E4C9-B291-381C-910C-60483801299F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -32,6 +32,8 @@ _add_package_ImGUI()
 _add_package_ZLIB()
 _add_shared_sources_lib()
 
+
+add_subdirectory(ray_tracing) 
 add_subdirectory(ray_tracing__advance) 
 add_subdirectory(ray_tracing__before) 
 add_subdirectory(ray_tracing__simple)

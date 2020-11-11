@@ -1,0 +1,26 @@
+﻿  Generating shaders/frag_shader.frag.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/frag_shader.frag.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/shaders/frag_shader.frag
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/shaders/frag_shader.frag
+  Generating shaders/passthrough.vert.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/passthrough.vert.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/shaders/passthrough.vert
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/shaders/passthrough.vert
+  Generating shaders/post.frag.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/post.frag.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/shaders/post.frag
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/shaders/post.frag
+  Generating shaders/vert_shader.vert.spv
+  C:/VulkanSDK/1.2.148.1/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/vert_shader.vert.spv -g C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/shaders/vert_shader.vert
+  C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/shaders/vert_shader.vert
+  Building Custom Rule C:/Users/ALHARBRQ/Documents/vk_raytracing_tutorial_KHR/ray_tracing_rayquery/CMakeLists.txt
+  hello_vulkan.cpp
+  main.cpp
+  obj_loader.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_helper.cpp
+  imgui_impl_glfw.cpp
+  imgui_widgets.cpp
+  imgui_orient.cpp
+  imgui_impl_gl.cpp
+  imgui_impl_vk.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  vk_ray_tracing_rayquery_KHR.vcxproj -> C:\Users\ALHARBRQ\Documents\bin_x64\Debug\vk_ray_tracing_rayquery_KHR.exe
