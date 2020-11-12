@@ -107,6 +107,7 @@ int main(int argc, char** argv)
 
   // Creation of the example
   helloVk.loadModel(nvh::findFile("media/scenes/cube_multi.obj", defaultSearchPaths));
+//  helloVk.loadModel(nvh::findFile("media/scenes/wuson.obj", defaultSearchPaths));
 
   helloVk.createOffscreenRender();
   helloVk.createDescriptorSetLayout();
